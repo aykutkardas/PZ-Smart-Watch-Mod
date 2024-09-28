@@ -120,7 +120,7 @@ end
 
 -- Events
 local function onPlayerGetDamage(player)
-    hp = getPlayer():getHealth()
+    overallHP = getPlayer():getHealth()
 end
 
 local function onPlayerUpdate(player)
